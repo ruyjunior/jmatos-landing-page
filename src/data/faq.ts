@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `Os treinos na ${siteDetails.siteName} são indicados para iniciantes?`,
+        answer: 'Sim! Nossos treinos são estruturados para atender desde iniciantes até atletas experientes. Você aprenderá no seu ritmo, com acompanhamento profissional.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `Preciso de equipamento próprio para treinar?`,
+        answer: 'Não é obrigatório. Fornecemos luvas e outros equipamentos básicos para iniciantes. Porém, recomendamos que adquira seus próprios itens para maior conforto e higiene.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'O boxe ajuda no emagrecimento e condicionamento físico?',
+        answer: `Com certeza! Os treinos de boxe são intensos e trabalham todo o corpo, ajudando na queima de gordura, no ganho de resistência e no fortalecimento muscular.`,
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'Posso fazer uma aula experimental antes de me matricular?',
+        answer: 'Sim! Oferecemos aulas experimentais para que você conheça nossa estrutura, professores e metodologia antes de tomar sua decisão.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'Quais são os benefícios do boxe além da parte física?',
+        answer: 'Além de melhorar o condicionamento físico, o boxe ajuda a desenvolver disciplina, concentração, autoconfiança e alívio do estresse.',
     }
 ];

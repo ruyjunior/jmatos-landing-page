@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+
+    images: {
+        domains: ['cbboxe.org.br'], // Adicione o domínio aqui
+        
+      },
+};
 
 export default nextConfig;

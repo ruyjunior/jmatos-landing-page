@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'Nobre Boxe',
+    siteUrl: 'https://nobreboxe-landing-page.vercel.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Nobre Boxe',
+        description: 'Boxing Club Nobre Boxe - Academia especializada de boxe.',
     },
-    language: 'en-us',
-    locale: 'en-US',
+    language: 'pt-br',
+    locale: 'pt-BR',
     siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
-    googleAnalyticsId: '', // e.g. G-XXXXXXX,
+    googleAnalyticsId: '', // e.g. GNo-XXXXXXX,
 }

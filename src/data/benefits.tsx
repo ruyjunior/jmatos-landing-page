@@ -1,72 +1,50 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import { FiBarChart2, FiBriefcase, FiDollarSign, FiPieChart, FiTarget, FiTrendingUp } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Health & Performance",
+        description: "Eleve seu condicionamento físico com um treinamento de boxe completo. Nossa abordagem combina técnica, resistência e disciplina para transformar seu corpo e mente.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
+                title: "Treinamento Intensivo",
+                description: "Aprimore força, agilidade e resistência com treinos dinâmicos e desafiadores.",
                 icon: <FiBarChart2 size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
+                title: "Metas Personalizadas",
+                description: "Defina e acompanhe seus objetivos, seja para competição, defesa pessoal ou condicionamento.",
                 icon: <FiTarget size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
+                title: "Análise de Performance",
+                description: "Monitore sua evolução com métricas precisas e feedback especializado.",
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/others/4.png"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "Foco e Disciplina",
+        description: "Desenvolva força mental e física com o boxe. Treine com determinação, aprimore sua técnica e construa uma mentalidade vencedora.",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
+                title: "Treinos Estratégicos",
+                description: "Exercícios estruturados para melhorar resistência, técnica e reflexos.",
                 icon: <FiDollarSign size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
+                title: "Mentalidade de Campeão",
+                description: "Aprenda a controlar o foco e a disciplina dentro e fora do ringue.",
                 icon: <FiBriefcase size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
+                title: "Acompanhamento de Desempenho",
+                description: "Monitore seu progresso com métricas claras e feedback especializado.",
                 icon: <FiPieChart size={26} />
             }
         ],
-        imageSrc: "/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
+        imageSrc: "/images/others/7.png"
+    }
 ]
