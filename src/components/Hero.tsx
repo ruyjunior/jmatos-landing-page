@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
                 </p>
                 <button className="mt-8 px-6 py-3 text-lg font-semibold text-white bg-red-600 hover:bg-red-700 rounded-full transition">
                     <a href="https://wa.me/5571999857902" target="_blank" rel="noopener noreferrer">
-                        Quero Treinar!
+                        I want to train!
                     </a>
                 </button>
             </div>

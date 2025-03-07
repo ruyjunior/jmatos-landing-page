@@ -1,50 +1,50 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiPieChart, FiTarget, FiTrendingUp } from "react-icons/fi";
+import { FiBarChart2, FiActivity, FiClipboard, FiShield, FiTarget, FiTrendingUp } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
         title: "Health & Performance",
-        description: "Eleve seu condicionamento físico com um treinamento de boxe completo. Nossa abordagem combina técnica, resistência e disciplina para transformar seu corpo e mente.",
+        description: "Take your fitness to the next level with high-intensity CrossFit training. Our program combines strength, endurance, and agility to transform your body and mind.",
         bullets: [
             {
-                title: "Treinamento Intensivo",
-                description: "Aprimore força, agilidade e resistência com treinos dinâmicos e desafiadores.",
-                icon: <FiBarChart2 size={26} />
+                title: "High-Intensity Workouts",
+                description: "Enhance strength, speed, and endurance with dynamic and challenging training sessions.",
+                icon: <FiActivity size={26} /> // Representa intensidade e movimento
             },
             {
-                title: "Metas Personalizadas",
-                description: "Defina e acompanhe seus objetivos, seja para competição, defesa pessoal ou condicionamento.",
-                icon: <FiTarget size={26} />
+                title: "Personalized Goals",
+                description: "Set and track your fitness objectives, whether it's weight loss, muscle gain, or overall conditioning.",
+                icon: <FiTarget size={26} /> // Ícone de metas
             },
             {
-                title: "Análise de Performance",
-                description: "Monitore sua evolução com métricas precisas e feedback especializado.",
-                icon: <FiTrendingUp size={26} />
+                title: "Performance Analysis",
+                description: "Monitor your progress with accurate metrics and expert feedback.",
+                icon: <FiBarChart2 size={26} /> // Representa análise de desempenho
             }
         ],
         imageSrc: "/images/others/2.png"
     },
     {
-        title: "Foco e Disciplina",
-        description: "Desenvolva força mental e física com o boxe. Treine com determinação, aprimore sua técnica e construa uma mentalidade vencedora.",
+        title: "Focus & Discipline",
+        description: "Build mental and physical strength with CrossFit. Train with determination, master technique, and develop an unbreakable mindset.",
         bullets: [
             {
-                title: "Treinos Estratégicos",
-                description: "Exercícios estruturados para melhorar resistência, técnica e reflexos.",
-                icon: <FiDollarSign size={26} />
+                title: "Structured Training",
+                description: "Workouts designed to improve endurance, technique, and mobility.",
+                icon: <FiClipboard size={26} /> // Representa planejamento e estruturação
             },
             {
-                title: "Mentalidade de Campeão",
-                description: "Aprenda a controlar o foco e a disciplina dentro e fora do ringue.",
-                icon: <FiBriefcase size={26} />
+                title: "Champion Mindset",
+                description: "Learn to master focus and discipline inside and outside the gym.",
+                icon: <FiShield size={26} /> // Simboliza força mental e disciplina
             },
             {
-                title: "Acompanhamento de Desempenho",
-                description: "Monitore seu progresso com métricas claras e feedback especializado.",
-                icon: <FiPieChart size={26} />
+                title: "Progress Tracking",
+                description: "Track your performance with clear metrics and expert feedback.",
+                icon: <FiTrendingUp size={26} /> // Indicador de progresso e evolução
             }
         ],
         imageSrc: "/images/others/3.png"
     }
-]
+];

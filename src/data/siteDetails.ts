@@ -3,7 +3,7 @@ export const siteDetails = {
     siteUrl: 'https://bearcross-landing-page.vercel.app/',
     metadata: {
         title: 'Bear Cross',
-        description: 'Melhor Centro de Treinamento de Salvador BA - Dique Tororó',
+        description: 'Best Training Center in Salvador BA - Dique Tororó',
     },
     language: 'pt-br',
     locale: 'pt-BR',

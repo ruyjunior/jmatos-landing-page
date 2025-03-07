@@ -5,6 +5,7 @@ import { Source_Sans_3, Manrope } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { siteDetails } from '@/data/siteDetails';
+import WhatsappButton from "@/components/WhatsappButton";
 
 import "./globals.css";
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/images/logo.png',
         width: 1200,
         height: 675,
         alt: siteDetails.siteName,
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteDetails.metadata.title,
     description: siteDetails.metadata.description,
-    images: ['/images/twitter-image.jpg'],
+    images: ['/images/logo.png'],
   },
 };
 
@@ -51,6 +52,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <WhatsappButton />
         <Footer />
       </body>
     </html>

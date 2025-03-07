@@ -7,17 +7,16 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Vem treinar com a gente! Descubra como alcançar seus objetivos de forma saudável e divertida no nosso CT.",
+    subheading: "Come train with us! Discover how to achieve your goals in a healthy and fun way at our training center.",
     quickLinks: [
         { text: "Features", url: "#features" },
-        { text: "Team", url: "#team" },
-        { text: "Shedules", url: "#shedules" },
         { text: "Prices", url: "#pricing" },
-        { text: "News", url: "#news" },
-        { text: "Location", url: "#location" },
+        { text: "Payments", url: "#payments" },
+        { text: "Team", url: "#team" },
         { text: "FAQ", url: "#faq" },
+        { text: "Location", url: "#location" },
         ],
-    email: 'address@yoursite.com',
+    email: 'bearcrossct2024@gmail.com',
     telephone: '+55 71 9 9985-7902',
     socials: {
         // github: 'https://github.com',
