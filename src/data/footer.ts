@@ -7,7 +7,7 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Vem treinar com a gente! Descubra como alcançar seus objetivos de forma saudável e divertida na nossa academia.",
+    subheading: "Vem treinar com a gente! Descubra como alcançar seus objetivos de forma saudável e divertida no nosso CT.",
     quickLinks: [
         { text: "Features", url: "#features" },
         { text: "Team", url: "#team" },
@@ -18,7 +18,7 @@ export const footerDetails: {
         { text: "FAQ", url: "#faq" },
         ],
     email: 'address@yoursite.com',
-    telephone: '+55 (51) 99740-5047',
+    telephone: '+55 71 9 9985-7902',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
@@ -27,6 +27,6 @@ export const footerDetails: {
         // youtube: 'https://youtube.com',
         //linkedin: 'https://www.linkedin.com',
         // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com/nobreboxeclub',
+        instagram: 'https://www.instagram.com/bearcross.ct',
     }
 }

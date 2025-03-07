@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Nobre Boxe',
-    siteUrl: 'https://nobreboxe-landing-page.vercel.app/',
+    siteName: 'Bear Cross',
+    siteUrl: 'https://bearcross-landing-page.vercel.app/',
     metadata: {
-        title: 'Nobre Boxe',
-        description: 'Boxing Club Nobre Boxe - Academia especializada de boxe.',
+        title: 'Bear Cross',
+        description: 'Melhor Centro de Treinamento de Salvador BA - Dique Tororó',
     },
     language: 'pt-br',
     locale: 'pt-BR',

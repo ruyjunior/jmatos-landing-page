@@ -33,7 +33,7 @@ const Header: React.FC = () => {
                             priority={false}
                             className="rounded-full"
                         />
-                        <span className="text-xl font-semibold text-foreground cursor-pointer">
+                        <span className="text-xl text-white font-semibold text-foreground cursor-pointer">
                             {siteDetails.siteName}
                         </span>
                     </Link>
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
                             <li key={item.text}>
                                 <Link
                                     href={item.url}
-                                    className="text-foreground hover:text-foreground-accent transition-colors"
+                                    className="text-foreground text-white hover:text-foreground-accent transition-colors"
                                 >
                                     {item.text}
                                 </Link>

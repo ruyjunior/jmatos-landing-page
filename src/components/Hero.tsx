@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
                     id="hero-heading"
                     className="text-5xl md:text-7xl font-extrabold text-white leading-tight drop-shadow-md"
                 >
-                    <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-blue-600 to-white bg-clip-text text-transparent">
                         {heroDetails.heading}
                     </span>
                 </h1>
@@ -33,9 +33,10 @@ const Hero: React.FC = () => {
                 >
                     {heroDetails.subheading}
                 </p>
-
                 <button className="mt-8 px-6 py-3 text-lg font-semibold text-white bg-red-600 hover:bg-red-700 rounded-full transition">
-                    Quero Treinar!
+                    <a href="https://wa.me/5571999857902" target="_blank" rel="noopener noreferrer">
+                        Quero Treinar!
+                    </a>
                 </button>
             </div>
         </section>

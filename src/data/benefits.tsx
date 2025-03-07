@@ -23,7 +23,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/others/4.png"
+        imageSrc: "/images/others/2.png"
     },
     {
         title: "Foco e Disciplina",
@@ -45,6 +45,6 @@ export const benefits: IBenefit[] = [
                 icon: <FiPieChart size={26} />
             }
         ],
-        imageSrc: "/images/others/7.png"
+        imageSrc: "/images/others/3.png"
     }
 ]

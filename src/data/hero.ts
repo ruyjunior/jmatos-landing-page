@@ -1,5 +1,7 @@
+import { siteDetails } from "./siteDetails"
+
 export const heroDetails = {
-    heading: 'Boxing Club Nobre Boxe',
-    subheading: '🥊Academia especializada em boxe. Desde 2008 transformando vidas.',
+    heading: siteDetails.metadata.title,
+    subheading: siteDetails.metadata.description,
     centerImageSrc: '/images/others/1.png',
 }

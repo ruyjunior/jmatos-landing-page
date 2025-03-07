@@ -1,6 +1,6 @@
 import React from "react";
 import { FaMapMarkerAlt, FaDirections } from "react-icons/fa";
-const address = 'Rua São Luis, 55 - Gravataí, Rio Grande do Sul '
+const address = 'Av. Vasco da Gama, 292 - Engenho Velho de Brotas, Salvador - BA, 40240-090, Brasil '
 
 const Location: React.FC = () => {
     const googleMapsUrl = `https://www.google.com/maps?q=${address}&output=embed`;

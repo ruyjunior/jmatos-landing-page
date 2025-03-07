@@ -37,5 +37,4 @@ const PricingColumn: React.FC<Props> = ({ tier, highlight }: Props) => {
         </div>
     )
 }
-
 export default PricingColumn

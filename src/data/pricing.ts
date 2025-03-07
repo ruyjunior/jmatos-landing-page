@@ -2,24 +2,24 @@ import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
     {
-        name: 'Mensal',
+        name: 'Basic',
+        price: '129',
+        features: [
+            '2 Aulas semanais',
+        ],
+    },
+    {
+        name: 'Plus',
         price: 149,
         features: [
-            'Livre',
+            '3 Aulas semanais',
         ],
     },
     {
-        name: 'Semestral',
-        price: 129,
+        name: 'Gold',
+        price: 169,
         features: [
-            'Livre',
-        ],
-    },
-    {
-        name: 'Anual',
-        price: '109',
-        features: [
-            'Livre',
+            '5 aulas semanais',
         ],
     },
 ]
