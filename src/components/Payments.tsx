@@ -17,9 +17,9 @@ const Payments = () => {
           <div key={index} className="flex items-center justify-center bg-gray-200 px-2 py-3 rounded-lg shadow-md">
             <Image
               src={logo}
-              width={100} height={100}
+              width={200} height={200}
               alt="Partners"
-              className="rounded-md w-100 h-100"
+              className="rounded-md w-200 h-200"
             />
           </div>
         ))}

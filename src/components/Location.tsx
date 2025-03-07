@@ -10,7 +10,7 @@ const Location: React.FC = () => {
         <section id="location" className="py-16 bg-gray-100">
             <div className="container mx-auto px-6 text-center">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 flex items-center justify-center gap-2">
-                    <FaMapMarkerAlt className="text-primary" />
+                    <FaMapMarkerAlt className="text-secundary" />
                     Nossa Localização
                 </h2>
                 <p className="mt-4 text-gray-600">
@@ -32,7 +32,7 @@ const Location: React.FC = () => {
                     href={directionsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-6 inline-flex items-center px-6 py-3 bg-primary text-white text-lg font-semibold rounded-lg shadow-md hover:bg-primary-dark transition duration-300"
+                    className="mt-6 inline-flex items-center px-6 py-3 bg-secundary text-black text-lg font-semibold rounded-lg shadow-md hover:bg-primary-dark transition duration-300"
                 >
                     <FaDirections className="mr-2" />
                     Traçar Rota

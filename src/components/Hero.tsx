@@ -23,7 +23,10 @@ const Hero: React.FC = () => {
                     id="hero-heading"
                     className="text-5xl md:text-7xl font-extrabold text-white leading-tight drop-shadow-md"
                 >
-                    <span className="bg-gradient-to-r from-blue-600 to-white bg-clip-text text-transparent">
+                    <span
+                        className="bg-gradient-to-r from-blue-600 to-white bg-clip-text text-transparent"
+                        translate='no'
+                    >
                         {heroDetails.heading}
                     </span>
                 </h1>
