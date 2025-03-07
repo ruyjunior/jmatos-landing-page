@@ -33,7 +33,10 @@ const Header: React.FC = () => {
                             priority={false}
                             className="rounded-full"
                         />
-                        <span className="text-xl text-white font-semibold text-foreground cursor-pointer">
+                        <span 
+                            className="text-xl text-white font-semibold text-foreground cursor-pointer"
+                            translate='no'
+                        >
                             {siteDetails.siteName}
                         </span>
                     </Link>

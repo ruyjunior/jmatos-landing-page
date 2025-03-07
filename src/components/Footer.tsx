@@ -20,7 +20,10 @@ const Footer: React.FC = () => {
                             height={80}
                             className="rounded-full"
                         />
-                        <span className="text-xl font-semibold text-foreground cursor-pointer">
+                        <span
+                            className="text-xl font-semibold text-foreground cursor-pointer"
+                            translate='no'
+                        >
                             {siteDetails.siteName}
                         </span>
                     </Link>
@@ -41,7 +44,7 @@ const Footer: React.FC = () => {
                 <div>
                     <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
 
-                    {footerDetails.email && <a href={`mailto:${footerDetails.email}`}  className="block text-foreground-accent hover:text-foreground">Email: {footerDetails.email}</a>}
+                    {footerDetails.email && <a href={`mailto:${footerDetails.email}`} className="block text-foreground-accent hover:text-foreground">Email: {footerDetails.email}</a>}
 
                     {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Phone: {footerDetails.telephone}</a>}
 
