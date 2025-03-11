@@ -1,10 +1,10 @@
 import React from "react";
 import { FaMapMarkerAlt, FaDirections } from "react-icons/fa";
-const address = 'Av. Vasco da Gama, 292 - Engenho Velho de Brotas, Salvador - BA, 40240-090, Brasil '
+import { footerDetails } from "@/data/footer";
 
 const Location: React.FC = () => {
-    const googleMapsUrl = `https://www.google.com/maps?q=${address}&output=embed`;
-    const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${address}`;
+    const googleMapsUrl = `https://www.google.com/maps?q=${footerDetails.address}&output=embed`;
+    const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${footerDetails.address}`;
 
     return (
         <section id="location" className="py-16 bg-gray-100">
@@ -13,10 +13,6 @@ const Location: React.FC = () => {
                     <FaMapMarkerAlt className="text-secundary" />
                     Nossa Localização
                 </h2>
-                <p className="mt-4 text-gray-600">
-                    Venha treinar com a gente! Estamos localizados em um espaço moderno e bem equipado.
-                </p>
-
                 <div className="mt-8 w-full max-w-4xl mx-auto shadow-lg rounded-lg overflow-hidden">
                     <iframe
                         src={googleMapsUrl}

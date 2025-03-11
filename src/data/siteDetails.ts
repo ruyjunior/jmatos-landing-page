@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Bear Cross',
-    siteUrl: 'https://bearcross-landing-page.vercel.app/',
+    siteName: 'Title Company',
+    siteUrl: 'https://suaempresa.com',
     metadata: {
-        title: 'Bear Cross',
-        description: 'Best Training Center in Salvador BA - Dique Tororó',
+        title: 'Title Company',
+        description: 'Description of company',
     },
     language: 'pt-br',
     locale: 'pt-BR',

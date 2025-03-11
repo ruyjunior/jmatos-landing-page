@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { Source_Sans_3, Manrope } from "next/font/google";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/body/Header";
+import Footer from "@/components/body/Footer";
 import { siteDetails } from '@/data/siteDetails';
 import WhatsappButton from "@/components/WhatsappButton";
+import TopButton from '@/components/TopButton';
 
 import "./globals.css";
 
@@ -23,8 +24,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: '/images/logo.png',
-        width: 1200,
-        height: 675,
+        width: 500,
+        height: 500,
         alt: siteDetails.siteName,
       },
     ],
@@ -53,6 +54,7 @@ export default function RootLayout({
           {children}
         </main>
         <WhatsappButton />
+        <TopButton />
         <Footer />
       </body>
     </html>

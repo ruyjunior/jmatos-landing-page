@@ -7,7 +7,7 @@ export const faqs: IFAQ[] = [
         answer: 'Yes! Our workouts are adaptable for all levels, from beginners to advanced athletes. You will progress at your own pace with professional guidance.',
     },
     {
-        question: `Do I need my own equipment to train?`,
+        question: 'Do I need my own equipment to train?',
         answer: 'It is not mandatory. We provide the necessary equipment for training, but we recommend having your own items, such as gloves and grips, for better comfort and hygiene.',
     },
     {

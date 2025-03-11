@@ -51,3 +51,9 @@ export interface ISocials {
     x?: string;
     [key: string]: string | undefined;
 }
+
+export interface ITeam {
+    name: string;
+    position: string;
+    imageSrc: string;
+}

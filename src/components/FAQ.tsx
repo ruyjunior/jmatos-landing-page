@@ -1,7 +1,7 @@
 "use client"
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { BiMinus, BiPlus } from "react-icons/bi";
-
+import { footerDetails } from "@/data/footer"; 
 import SectionTitle from "./SectionTitle";
 import { faqs } from "@/data/faq";
 
@@ -22,7 +22,7 @@ const FAQ: React.FC = () => {
                         Ask us anything!
                     </p>
                     <a href="mailto:" className="mt-3 block text-xl lg:text-4xl text-secondary font-semibold hover:underline text-center lg:text-left">
-                        bearcrossct2024@gmail.com
+                        {footerDetails.email}
                     </a>
                 </div>
 
