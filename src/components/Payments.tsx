@@ -2,7 +2,6 @@ import Image from 'next/image';
 
 const logos = [
   '/images/payments/pix.png',
-  '/images/payments/wellhub.png',
   '/images/payments/visa.png',
   '/images/payments/master.png',
   '/images/payments/elo.png',

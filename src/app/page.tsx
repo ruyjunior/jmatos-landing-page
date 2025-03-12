@@ -13,9 +13,9 @@ const HomePage: React.FC = () => {
     <>
       <Hero />
       <Container>
-        <Benefits />
-        <Pricing />
-        <Payments />
+        {/*<Benefits />*/}
+        {/*<Pricing />*/}
+        {/*<Payments /> */}
         <Team />
         <FAQ />
         <Location />

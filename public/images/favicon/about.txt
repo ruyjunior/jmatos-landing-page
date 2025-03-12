@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Lateef
+- Font Title: Libre Caslon Text
 - Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/lateef/v32/hESw6XVnNCxEvkbMpheEZo_H_w.ttf
+- Font Source: https://fonts.gstatic.com/s/librecaslontext/v5/DdT878IGsGw1aF1JU10PUbTvNNaDMcq_3eNrHgO1.ttf
 - Font License: undefined)

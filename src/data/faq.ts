@@ -1,25 +1,25 @@
 import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
+//import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Are the workouts at ${siteDetails.siteName} suitable for beginners?`,
-        answer: 'Yes! Our workouts are adaptable for all levels, from beginners to advanced athletes. You will progress at your own pace with professional guidance.',
+        question: 'Os serviços do escritório são adequados para pessoas físicas e jurídicas?',
+        answer: 'Sim! Atendemos tanto pessoas físicas quanto empresas, oferecendo assessoria jurídica personalizada de acordo com cada necessidade.',
     },
     {
-        question: 'Do I need my own equipment to train?',
-        answer: 'It is not mandatory. We provide the necessary equipment for training, but we recommend having your own items, such as gloves and grips, for better comfort and hygiene.',
+        question: 'Preciso agendar uma consulta para esclarecer dúvidas jurídicas?',
+        answer: 'Sim, recomendamos agendar uma consulta para que possamos entender melhor seu caso e oferecer a melhor orientação jurídica.',
     },
     {
-        question: 'Does CrossFit help with weight loss and fitness conditioning?',
-        answer: `Absolutely! CrossFit workouts combine high-intensity exercises that accelerate fat burning, improve overall fitness, and increase muscle strength.`,
+        question: 'O escritório oferece atendimento online?',
+        answer: 'Sim! Disponibilizamos consultas e acompanhamentos online para maior comodidade e agilidade no atendimento.',
     },
     {
-        question: 'Can I take a trial class before signing up?',
-        answer: 'Yes! We offer trial classes so you can experience our facilities, methodology, and coaches before starting your CrossFit journey.',
+        question: 'Quais áreas do direito o escritório atua?',
+        answer: 'Nosso escritório atua em diversas áreas, incluindo direito trabalhista, cível, empresarial, tributário e previdenciário.',
     },
     {
-        question: 'What are the benefits of CrossFit beyond physical fitness?',
-        answer: 'In addition to improving physical fitness, CrossFit promotes discipline, focus, teamwork, self-confidence, and mental well-being.',
+        question: 'Como funciona o pagamento pelos serviços jurídicos?',
+        answer: 'Os honorários variam de acordo com a complexidade do caso e são definidos após uma avaliação inicial. Também oferecemos parcelamento em algumas situações.',
     }
 ];

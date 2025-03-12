@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Title Company',
-    siteUrl: 'https://suaempresa.com',
+    siteName: 'Josias Matos Advocacia',
+    siteUrl: 'https://josiasmatosadvocacia.com.br',
     metadata: {
-        title: 'Title Company',
-        description: 'Description of company',
+        title: 'Josias Matos Advocacia',
+        description: 'Te ajudo a encontrar as melhores soluções para seus problemas jurídicos',
     },
     language: 'pt-br',
     locale: 'pt-BR',
