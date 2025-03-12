@@ -11,7 +11,7 @@ const Location: React.FC = () => {
             <div className="container mx-auto px-6 text-center">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 flex items-center justify-center gap-2">
                     <FaMapMarkerAlt className="text-secundary" />
-                    Nossa Localização
+                    Our location
                 </h2>
                 <div className="mt-8 w-full max-w-4xl mx-auto shadow-lg rounded-lg overflow-hidden">
                     <iframe
@@ -31,7 +31,7 @@ const Location: React.FC = () => {
                     className="mt-6 inline-flex items-center px-6 py-3 bg-secundary text-black text-lg font-semibold rounded-lg shadow-md hover:bg-primary-dark transition duration-300"
                 >
                     <FaDirections className="mr-2" />
-                    Traçar Rota
+                    Plot the route
                 </a>
             </div>
         </section>

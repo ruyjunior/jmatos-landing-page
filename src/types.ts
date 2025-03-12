@@ -55,5 +55,6 @@ export interface ISocials {
 export interface ITeam {
     name: string;
     position: string;
+    description: string;
     imageSrc: string;
 }

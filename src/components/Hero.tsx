@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
         </p>
         <button className="mt-10 px-6 py-3 text-lg font-semibold text-white bg-red-600 hover:bg-red-700 rounded-full transition">
             <a href={href} target="_blank" rel="noopener noreferrer">
-                I want!
+                {heroDetails.textButton}
             </a>
         </button>
     </div>
