@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
                     </p>
                 </div>
                 <div>
-                    <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+                    <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
                     <ul className="text-foreground-accent">
                         {footerDetails.quickLinks.map(link => (
                             <li key={link.text} className="mb-2">
@@ -40,11 +40,11 @@ const Footer: React.FC = () => {
                     </ul>
                 </div>
                 <div>
-                    <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
+                    <h4 className="text-lg font-semibold mb-4">Entre em Contato</h4>
 
                     {footerDetails.email && <a href={`mailto:${footerDetails.email}`} className="block text-foreground-accent hover:text-foreground">Email: {footerDetails.email}</a>}
 
-                    {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Phone: {footerDetails.telephone}</a>}
+                    {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Telefone: {footerDetails.telephone}</a>}
 
                     {footerDetails.socials && (
                         <div className="mt-5 flex items-center gap-5 flex-wrap">

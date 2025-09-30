@@ -15,11 +15,11 @@ const FAQ: React.FC = () => {
                     </p>
                     <SectionTitle>
                         <h2 className="my-3 !leading-snug lg:max-w-sm text-center lg:text-left">
-                            Frequently Asked Questions
+                            Dúvidas Frequentes
                         </h2>
                     </SectionTitle>
                     <p className="lg:mt-10 text-foreground-accent text-center lg:text-left">
-                        Ask us anything!
+                        Pergunte-nos qualquer coisa!
                     </p>
                     <a href="mailto:" className="mt-3 block text-xl lg:text-4xl text-secondary font-semibold hover:underline text-center lg:text-left">
                         {footerDetails.email}

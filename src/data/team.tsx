@@ -4,7 +4,7 @@ export const team: ITeam[] = [
     {
         name: "Josias Matos ",
         position: "Advogado",
-        description: 'The Founder, Dr. Josias Matos, is a criminal lawyer. He graduated in law from Unijorge and has a postgraduate degree in criminal sciences from CERS. His practice focuses on highly complex cases and large operations.',
+        description: 'O fundador, Dr. Josias Matos, é advogado criminalista. Formado em Direito pela Unijorge e pós-graduado em Ciências Criminais pelo CERS. Sua atuação é voltada para casos de alta complexidade e grandes operações.',
         imageSrc: "/images/team/team1.png"
     }
 ];

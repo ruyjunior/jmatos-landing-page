@@ -3,23 +3,23 @@ import { IFAQ } from "@/types";
 
 export const faqs: IFAQ[] = [
     {
-        question: 'Are the firm’s services suitable for individuals and businesses?',
-        answer: 'Yes! We provide legal assistance to both individuals and businesses, offering personalized legal counsel tailored to each client’s needs.',
+        question: 'Os serviços do escritório são adequados para pessoas físicas e jurídicas?',
+        answer: 'Sim! Prestamos assistência jurídica tanto para pessoas físicas quanto jurídicas, oferecendo orientação personalizada conforme as necessidades de cada cliente.',
     },
     {
-        question: 'Do I need to schedule a consultation to clarify legal questions?',
-        answer: 'Yes, we recommend scheduling a consultation so we can better understand your case and provide the best legal guidance.',
+        question: 'Preciso agendar uma consulta para esclarecer dúvidas jurídicas?',
+        answer: 'Sim, recomendamos o agendamento de uma consulta para entendermos melhor o seu caso e oferecermos a melhor orientação jurídica.',
     },
     {
-        question: 'Does the firm offer online consultations?',
-        answer: 'Yes! We provide online consultations and legal follow-ups for greater convenience and efficiency.',
+        question: 'O escritório oferece consultas online?',
+        answer: 'Sim! Realizamos consultas online e acompanhamento jurídico remoto para maior comodidade e eficiência.',
     },
     {
-        question: 'Which areas of law does the firm specialize in?',
-        answer: 'Our firm specializes in various legal areas, including labor law, civil law, corporate law, tax law, and social security law.',
+        question: 'Quais áreas do direito o escritório atua?',
+        answer: 'Nosso escritório atua em diversas áreas jurídicas, incluindo direito trabalhista, civil, empresarial, tributário e previdenciário.',
     },
     {
-        question: 'How does payment for legal services work?',
-        answer: 'Legal fees vary depending on the complexity of the case and are determined after an initial assessment. We also offer installment payment options in some cases.',
+        question: 'Como funciona o pagamento dos serviços jurídicos?',
+        answer: 'Os honorários variam conforme a complexidade do caso e são definidos após uma avaliação inicial. Em alguns casos, oferecemos opções de pagamento parcelado.',
     }
 ];
