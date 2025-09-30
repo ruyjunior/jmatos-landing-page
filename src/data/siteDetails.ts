@@ -3,7 +3,7 @@ export const siteDetails = {
     siteUrl: 'https://josiasmatosadvocacia.com.br',
     metadata: {
         title: 'Josias Matos Advocacia',
-        description: 'Escritorio de advocacia especializado em direito civil, trabalhista e empresarial.',
+        description: 'Escritorio de advocacia especializado em direito criminal, com atuação no direito civil, trabalhista e previdenciário.',
     },
     language: 'pt-BR',
     locale: 'pt-BR',
